@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="header_logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Stranger_Things_logo.svg"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse nav_center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav_center">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav_link_clr active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_link_clr" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_link_clr" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_link_clr" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="header">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://wallpapers.com/images/hd/stranger-things-aesthetic-desktop-hrz824k4nubtbmy3.jpg"
+                class="d-block w-100 img-stranger"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images7.alphacoders.com/124/thumb-1920-1249146.jpg"
+                class="d-block w-100 img-stranger"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0bb0dd0f-3a24-48e3-83a5-b476ca307a1f/dkto0er-a33087cc-c503-43b8-b5a4-80ac9a984bd1.jpg/v1/fill/w_1920,h_1080,q_75,strp/stranger_things_s05__2025____2k_desktop_wallpaper_by_chamikanlakshan_dkto0er-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiIvZi8wYmIwZGQwZi0zYTI0LTQ4ZTMtODNhNS1iNDc2Y2EzMDdhMWYvZGt0bzBlci1hMzMwODdjYy1jNTAzLTQzYjgtYjVhNC04MGFjOWE5ODRiZDEuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6Dd4mZki5r-UMR9NEBnxZx7SpiU3Z1-7gZBcRXqE0uw"
+                class="d-block w-100 img-stranger"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.hdwallpapers.in/download/all_characters_in_stranger_things_hd_stranger_things-1920x1080.jpg"
+                class="d-block w-100 img-stranger"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 title">
+              <h1>CHARACTERS</h1>
+            </div>
+            <div class="col-12 row">
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2025/11/strangerthings5-characterposters3.jpg?resize=740%2C925&ssl=1"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i.namu.wiki/i/PSqljrFjCXRcGJ0yzHPNu8eF1eIpwxmTGVRvCOovWd2qzbAgLxgc5Bs-JHySq6LH1H97X2tlvTgZvdOZzETXdg.webp"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i.namu.wiki/i/wA7lWWA1klqlS0GJRfw2hdFh3LZffjE5XDkfJd2HrIlBFSEkJSXHNzFX57d1xfSZJ8baQL7ZdrB8ypQKSZuNdEOt5UEG-D1OeW2SFAcdZShO3xvltM4OXFKU3X1nvHEKs1SkxJihzQfrAk0F6OSTKg.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i.namu.wiki/i/QWXdlQWDzPZ6l9byMy3mNHjHrbMLRjrnXJomC4mEk3E0a5NLEVLLOKoV9dRrtKptV3oEokLRSBE5ep3jWCiLcfPNNonFg6ScAm56iNtbJhbBltRbeW4fUGt5H6g0uxtDYKjxWHYndYs7gUvzCd14yg.webp"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i.namu.wiki/i/BTECgEUt6PhY4Yx6-bVV71-Ke-Qr5qONjmtmDZvdWKP4sOPwzQtAw9XVJTGRMsDBKpl0FzlfzgK8OlsevSx0ybCAkD3WTWzd92bFIinzjR-c3Q5grxI4PY1S5fuwJ4cDv7V2HuypikYZL_iGk6FE3g.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i.namu.wiki/i/y6NWKPHHSzHoWaEVsznahQfFOWvoAmhhNmJ4OE66l_QIUgVaDe2BPNGT1KvF6o5njCR1K1IL3mP8CArl9URewJv-fuPOq22tzXtmDNpOuqyVTQTZfholnyTCo994H5tDNn7DyS3vvJNJ-ZsEh7Yr3w.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i.namu.wiki/i/dQUvnn73cjKzYAA8Dat-esbCuZBz5TaJTqfZBZ9KC10Gu3O7x3SFlbfuOnOv_lSNeRXyT6ZACEL7FRvlq8Q_WtTdKfZuoWAup9FZYUHf6QUA7bimVhqEc3Tvi2NfXa_8hjDldvfHbwJUQpAgzjjWyQ.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+              <div
+                class="card col-4 col-md-3 col-lg-2 m-3 cards"
+                style="width: 18rem"
+              >
+                <img
+                  src="https://i.namu.wiki/i/HKofuq8tmfXGCEQjgi33e_gc71dXC9HKT4np1q8cb9w6J7ryk8GZAylfko7NT9OF8YCw0c9CGXXC3A7XZRK5SGzvyHNm-xDDeu0n1sNEOa_xa3zn5NRfLryDfHFUU61mu6mksMxKymPd4k2z3X3FpQ.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-stranger">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-3 bg-success">
+        <h2>Contactanos</h2>
+        <form>
+          <div class="mb-3">
+            <label for="formFile" class="form-label"
+              >Default file input example</label
+            >
+            <input class="form-control" type="file" id="formFile" />
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label"
+              >Multiple files input example</label
+            >
+            <input
+              class="form-control"
+              type="file"
+              id="formFileMultiple"
+              multiple
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formFileDisabled" class="form-label"
+              >Disabled file input example</label
+            >
+            <input
+              class="form-control"
+              type="file"
+              id="formFileDisabled"
+              disabled
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label"
+              >Small file input example</label
+            >
+            <input
+              class="form-control form-control-sm"
+              id="formFileSm"
+              type="file"
+            />
+          </div>
+          <div>
+            <label for="formFileLg" class="form-label"
+              >Large file input example</label
+            >
+            <input
+              class="form-control form-control-lg"
+              id="formFileLg"
+              type="file"
+            />
+          </div>
+          <input type="submit" value="Enviar" class="btn btn-primary m-3" />
+        </form>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
